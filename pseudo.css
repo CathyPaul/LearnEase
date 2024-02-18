@@ -1,0 +1,102 @@
+body {
+    background-color: #CAE9FF;
+    margin: 0;
+}
+.nav-left
+{
+    padding-top: 30px;
+    padding-left:30px;
+    padding-right: 30px;
+    display:flex;
+}
+.middleman
+{
+    flex:1;
+    min-width: none;
+}
+.logoh
+{
+    height:30px;
+}
+.profpic
+{
+    height:60px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+.flex-container
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+.flex-left {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    flex: 0 0 300px;
+    min-width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+.flex-left > * {
+    margin: 5px; /* Adjust margin as needed */
+}
+
+.flex-right
+{
+    width:100px;
+    flex: 0 0 300px;
+    text-align: center;
+    min-width: 300px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.flex-center
+{
+    flex:1;
+    text-align: center;
+    min-width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+.lib >img{
+    width:10px;
+    height:10px;
+}
+
+.flex-container .flex-center h3{
+    color:#1B4965 !important; 
+    font-size: 35px !important; 
+    padding-top: 5px !important;
+    padding-bottom:15px !important;
+    margin-bottom: 0px !important;
+}
+
+/* .resource-section .flex-container .flex-left [type=checkbox]+label
+{
+    display: block;
+} */
+/* .flex-container .flex-left >div>form>label
+{
+    display: block;
+} */
+/* .flex-left>form
+{
+    display: none !important;
+}
+.flex-left .checker
+{
+    display: block !important;
+} */
+/* form
+ {
+    display: block;
+
+}  */
